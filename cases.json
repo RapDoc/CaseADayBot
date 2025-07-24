@@ -1,0 +1,850 @@
+[
+  {
+    "type": "Guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Beginner",
+    "question": "How many cups of tea are consumed in all of India every week?",
+    "hint": "Start with India's total population. Use an age-wise split (e.g., 0-14, 15-25, 25+) and estimate the daily tea consumption habits for each group.",
+    "Answer for guesstimates": "1. Start with India's population (~1.4B). 2. Exclude the non-tea-drinking population (~25%, e.g., young children), leaving a potential market of ~1.05B people. 3. Segment the market by geography into Urban (35%) and Rural (65%). 4. Estimate consumption habits for each segment: Urban (assume 70% are daily drinkers at 2 cups/day; 30% are occasional at 2 cups/week) and Rural (assume 80% are daily drinkers at 2.5 cups/day; 20% are occasional at 3 cups/week). 5. Calculate the total daily cups for each of the four sub-segments, sum them to get a national daily total, and multiply by 7 to arrive at the weekly figure.|~13.8 billion cups"
+  },
+  {
+    "type": "Guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Beginner",
+    "question": "Estimate the size of the chewing gum market in India.",
+    "hint": "Focus on the addressable population by segmenting based on income and age. Categorize consumers by frequency (high, medium, low) and estimate their yearly spending.",
+    "Answer for guesstimates": "Start with India's population (~1.4B). 2. Define the addressable population by excluding age groups unlikely to consume gum (e.g., 0-5 and 60+), leaving ~1B people. 3. Segment this population by location: Urban (35% or 350M) and Rural (65% or 650M). 4. Segment each location by consumption frequency: Urban (assume 20% high, 40% medium, 30% low consumers) and Rural (assume 5% high, 20% medium, 40% low consumers). 5. Estimate weekly spend based on frequency and an average price of ₹1/piece (e.g., High: 5 pieces/week; Medium: 2 pieces/week; Low: 0.25 pieces/week). 6. Calculate the total weekly consumption for all segments, sum them, and multiply by the average price (₹1) and 52 weeks to get the annual market size.|~₹5,900 Crores"
+  },
+  {
+    "type": "Guesstimate",
+    "topic": "Operations",
+    "difficulty": "Beginner",
+    "question": "How many words are there in an average daily newspaper?",
+    "hint": "Break down the newspaper into sections (e.g., front page, sports, business). Estimate the number of columns per page and the average number of words per column.",
+    "Answer for guesstimates": "Define an \"average daily newspaper\" as a 20-page broadsheet. 2. Break down the paper into two main types: Article-heavy pages (16 pages for news, sports, business, etc.) and Classifieds/Ad pages (4 pages). 3. For the 16 article pages, assume text covers 60% of the space. Estimate a page has 7 columns, and a full column of text contains ~750 words. This gives 16 pages * 7 columns/page * 60% text coverage * 750 words/column = ~50,400 words. 4. For the 4 dense classifieds pages, estimate a higher word count per page, for example, 8,000 words per page, totaling 4 pages * 8,000 words/page = 32,000 words. 5. Sum the word counts from both sections to get the total estimated words in the newspaper.|~82,000 - 85,000 words"
+  },
+  {
+    "type": "Guesstimate",
+    "topic": "Operations",
+    "difficulty": "Intermediate",
+    "question": "Estimate the number of flights taking off in a day from Delhi Airport.",
+    "hint": "Segment airports by type (Major, Medium, Small). For each type, estimate the number of runways and the average time gap between take-offs to calculate hourly capacity.",
+    "Answer for guesstimates": "Identify Delhi Airport (DEL) as a major international hub operating 24/7 with 3 active runways. For estimation, assume an effective 2.5 runways are operational for take-offs at any given time to account for mixed-use (landings) and taxiing. 2. Estimate the average time gap between two consecutive take-offs from the same runway. During peak hours this is ~90 seconds, and during off-peak it's longer. Assume an average of 2.5 minutes (150 seconds) for a blended 24-hour cycle. 3. Calculate the take-off capacity per hour: (60 minutes / 2.5 minutes/take-off) * 2.5 runways = 24 * 2.5 = 60 take-offs per hour. 4. Calculate the total take-offs for a full day: 60 take-offs/hour * 24 hours = 1440 movements. 5. Since airport movements consist of both take-offs and landings, divide the total movements by 2 to get the number of take-offs. 1440 / 2 = 720.|~700-750 flights"
+  },
+  {
+    "type": "Guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Intermediate",
+    "question": "Estimate the size of the diaper market in India.",
+    "hint": "Begin with the total population of India. Segment by age to find the number of children in the target age range (0-3 years). Further segment by rural/urban and income level to estimate penetration.",
+    "Answer for guesstimates": "Start with India's population (~1.4B) and estimate the target age group (0-3 years) to be ~8% of the total, resulting in ~112M children. 2. Segment these children by location: Urban (35% or ~39M) and Rural (65% or ~73M). 3. Estimate penetration and daily usage by sub-segment: Urban (assume 50% are mid-to-high income with 80% penetration at 3 diapers/day; 50% are low-income with 30% penetration at 1.5 diapers/day) and Rural (assume 10% are affluent with 30% penetration at 1 diaper/day; 90% are lower-income with 5% penetration at 0.5 diapers/day). 4. Calculate the total annual diaper consumption by summing the usage across all four sub-segments and multiplying by 365 days. 5. Multiply the total annual volume by an estimated blended average price of ₹10 per diaper to arrive at the market size.|~₹21,500 - ₹22,000 Crores"
+  },
+  {
+    "type": "Guesstimate",
+    "topic": "Operations",
+    "difficulty": "Intermediate",
+    "question": "How much change would you find on the floor of an average mall in a day?",
+    "hint": "Estimate the daily footfall of an average mall. Then, estimate the percentage of people who might drop a coin and the average value of the dropped coin.",
+    "Answer for guesstimates": "Estimate the average daily footfall for a mid-sized mall, using a blended average of weekday and weekend traffic, resulting in ~25,000 visitors per day. 2. Estimate the percentage of people who might accidentally drop a coin. Given the prevalence of digital payments, assume a small fraction, like 0.2% (1 in 500 visitors), drop a coin. This equals 25,000 * 0.2% = 50 incidents. 3. Estimate the average value of a dropped coin. Assuming smaller denominations like ₹1 and ₹2 are more common to drop, a weighted average value might be ~₹2.5. 4. Calculate the total value of coins dropped daily: 50 incidents * ₹2.5 = ₹125. 5. Account for immediate recovery (by the owner or others) and cleaning staff. Assume only a fraction of this amount, perhaps 50%, remains \"lost\" on the floor for any significant time. This gives a total findable amount of ₹125 * 50%.|~₹60 - ₹65"
+  },
+  {
+    "type": "Guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Intermediate",
+    "question": "Estimate the number of watches currently in use in Delhi.",
+    "hint": "Start with Delhi's population. Segment by income (Upper, Middle, Lower) and estimate the percentage of watch ownership for each segment. Assume one watch per owner.",
+    "Answer for guesstimates": "Start with the approximate population of Delhi (~30 Million). 2. Segment the population by income level to estimate purchasing power and lifestyle: Upper Class (20% or 6M), Middle Class (50% or 15M), and Lower Class (30% or 9M). 3. Estimate the watch ownership penetration for each segment, considering that many people now use phones for time: Upper Class (assume 90% ownership due to fashion and smartwatches), Middle Class (assume 60% ownership), and Lower Class (assume 20% ownership, as a phone is a higher priority). 4. Calculate the number of watches for each segment and sum them: (6M * 0.9) + (15M * 0.6) + (9M * 0.2) = 5.4M + 9M + 1.8M.|~16.2 Million"
+  },
+  {
+    "type": "Guesstimate",
+    "topic": "Operations",
+    "difficulty": "Intermediate",
+    "question": "Estimate the number of aeroplanes flying in India right now.",
+    "hint": "Calculate the total number of flights taking off in a 2-hour window (average flight duration). Segment airports by size (Major, Medium, Small) to estimate take-off frequency.",
+    "Answer for guesstimates": "The number of planes in the air \"right now\" can be estimated by the number of flights that take off within a window equal to the average flight duration. Assume an average flight duration of 2 hours for domestic flights in India. 2. Segment India's ~80 active commercial airports by size: Major (~6, e.g., DEL, BOM), Medium (~20, e.g., PNQ, LKO), and Small (~54). 3. Estimate the average number of take-offs per hour for each airport type during a typical operational hour: Major (~25), Medium (~10), and Small (~3). 4. Calculate the total take-offs per hour across the country: (6 * 25) + (20 * 10) + (54 * 3) = 150 + 200 + 162 = 512. 5. Multiply the total hourly take-offs by the average flight duration (2 hours) to find the approximate number of planes airborne at any given time: 512 * 2 = 1024.|~1000-1100 planes"
+  },
+  {
+    "type": "Guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Advanced",
+    "question": "Estimate the size of the Indian Cement Industry.",
+    "hint": "Use a supply-side approach by considering production capacity or a demand-side approach by estimating consumption from key sectors (housing, infrastructure, commercial).",
+    "Answer for guesstimates": "Adopt a demand-side approach, starting with India's total annual cement consumption, which is approximately 450 Million Tonnes Per Annum (MTPA). 2. This demand is primarily driven by three key sectors: Housing and Real Estate (~65%), Infrastructure projects like roads and bridges (~25%), and Commercial/Industrial construction (~10%). 3. Estimate the average price of cement. A 50kg bag averages around ₹360, which translates to a price per tonne of ₹360/bag * 20 bags/tonne = ₹7,200/tonne. 4. Calculate the total market size by multiplying the total annual consumption by the average price per tonne: 450,000,000 tonnes * ₹7,200/tonne.|~₹3,24,000 Crores"
+  },
+  {
+    "type": "Guesstimate",
+    "topic": "Finance",
+    "difficulty": "Advanced",
+    "question": "Estimate the daily revenue of an average fuel station in Mumbai.",
+    "hint": "Segment the day into peak and off-peak hours. Estimate the number of pumps, average fueling time per vehicle, and the types of vehicles (cars, bikes, commercial) to calculate fuel volume sold.",
+    "Answer for guesstimates": "Assume an average station has 8 pumps and is open 24 hours. Segment the day into Peak (12 hours, e.g., 8 am-8 pm) and Off-Peak (12 hours). 2. During peak hours, assume 70% pump utilization with an average service time of 4 minutes per vehicle, yielding (60 min / 4 min) * 0.7 * 8 pumps * 12 hrs = ~1000 vehicles. 3. During off-peak hours, assume 20% utilization, yielding (60 min / 4 min) * 0.2 * 8 pumps * 12 hrs = ~288 vehicles. Total daily vehicles are ~1300. 4. Segment vehicles by type and average fuel fill: Bikes (50% of vehicles, 5L), Cars (40%, 20L), and Commercial (10%, 30L). This gives a total daily volume of (650*5) + (520*20) + (130*30) = 3250 + 10400 + 3900 = ~17,550 litres. 5. Assume 70% of volume is petrol (~12,285L) and 30% is diesel (~5,265L). Using average Mumbai prices (Petrol: ~₹105/L, Diesel: ~₹95/L), calculate total revenue: (12,285 * 105) + (5,265 * 95).|~₹17.9 Lakhs"
+  },
+  {
+    "type": "Guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Beginner",
+    "question": "How many people buy bottled water in India annually?",
+    "hint": "Start with India's population. Segment by urban/rural and income. Estimate the percentage of people in each segment who regularly purchase bottled water and their annual consumption.",
+    "Answer for guesstimates": "Start with India's population (~1.4B). 2. Segment the population into Urban (~35% or 490M) and Rural (~65% or 910M). 3. Estimate the percentage of people in each segment who buy bottled water at least once a year (this includes regular and occasional buyers). Urban: Assume a higher penetration rate due to lifestyle, travel, and water quality concerns; estimate 70% of the urban population are buyers. Rural: Assume a lower penetration rate; estimate 15-20% are buyers, primarily for travel or special occasions. 4. Calculate the number of buyers in each segment: Urban Buyers = 490M * 70% = 343M. Rural Buyers = 910M * 17% = ~155M. 5. Sum the buyers from both segments to get the total number of people buying bottled water annually.|~490 - 500 Million people"
+  },
+  {
+    "type": "Guesstimate",
+    "topic": "Operations",
+    "difficulty": "Beginner",
+    "question": "How many chairs are needed for a 1,000-person conference?",
+    "hint": "Consider different types of sessions (keynote, breakout, workshop) and estimate simultaneous seating requirements. Factor in space for common areas like lounges and dining halls.",
+    "Answer for guesstimates": "The primary requirement is seating for the main keynote session, where all 1,000 attendees are present. Including a 5% buffer for staff and spacing, this requires 1000 * 1.05 = 1,050 chairs. This is the peak requirement for all sessions, as any parallel breakout sessions will involve fewer than 1,000 people combined. 2. Next, consider areas used simultaneously with sessions. The dining hall or lunch area needs seating. Assuming not all attendees eat at the exact same time, we can plan for 80% capacity, requiring 1000 * 0.80 = 800 chairs (typically different, banquet-style chairs). 3. Add seating for common areas like lounges and networking zones, which are used throughout the day. Estimate seating for 15% of attendees, adding 1000 * 0.15 = 150 chairs (e.g., sofas, armchairs). 4. Finally, account for miscellaneous needs like a speaker-ready room, staff offices, and a VIP lounge, adding another 50 chairs. 5. Sum the requirements for these distinct areas: 1050 (Keynote) + 800 (Dining) + 150 (Lounge) + 50 (Staff/VIP).|~2,050 chairs"
+  },
+  {
+    "type": "Guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Intermediate",
+    "question": "What is the annual market size for gym memberships in India?",
+    "hint": "Segment the population by age, urban/rural divide, and income level. Estimate the percentage of the addressable market that is likely to purchase a gym membership and the average annual fee.",
+    "Answer for guesstimates": "Start with India's urban population, as gyms are predominantly an urban service (~490 Million). 2. Define the addressable market by segmenting for age (18-45 years, ~50% of urban pop.) and disposable income (middle-class and above, ~40% of that age group), resulting in a Total Addressable Market of 490M * 50% * 40% = ~98M people. 3. Estimate a gym membership penetration rate of about 4% within this specific addressable market, reflecting a growing but not yet mature market. This yields 98M * 4% = ~3.9M members. 4. Estimate a blended average annual membership fee of ₹18,000, accounting for the mix of high-end, mid-range, and budget gyms across different city tiers. 5. Calculate the total market size by multiplying the number of members by the average annual fee: 3.9M members * ₹18,000/year.|~₹7,000 - ₹7,500 Crores"
+  },
+  {
+    "type": "Guesstimate",
+    "topic": "Operations",
+    "difficulty": "Intermediate",
+    "question": "How many daily metro commuters are there in Delhi?",
+    "hint": "Start with Delhi's population. Estimate the percentage of the population that uses the metro for daily commutes, considering factors like proximity to stations and profession.",
+    "Answer for guesstimates": "Start with the population of the Delhi NCR region that relies on the metro, which is approximately 30 Million. 2. Identify the segment of the population that constitutes daily commuters (for work or education), estimated at around 40% of the total population, resulting in a potential commuter base of 30M * 40% = 12M. 3. Estimate the percentage of this group that has practical metro access for their daily route (i.e., both origin and destination are reasonably close to a station). Let's assume this is about 50%, narrowing the pool to 12M * 50% = 6M. 4. From this pool with viable access, estimate the percentage who choose the metro as their primary mode of transport over buses, personal vehicles, or ride-sharing. A reasonable estimate is 40-45%. Using 45%, we get 6M * 45% = 2.7M. 5. This number represents individual daily commuters, each making at least two trips per day.|~2.6 - 2.8 Million people"
+  },
+  {
+    "type": "Guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Advanced",
+    "question": "What is the market size for meal delivery services in Mumbai?",
+    "hint": "Use a top-down approach starting with Mumbai's population. Segment by age, income, and lifestyle (e.g., students, working professionals) to determine the target market. Estimate order frequency and average order value.",
+    "Answer for guesstimates": "Start with Mumbai's population (~21M). 2. Define the addressable market by segmenting for age (18-45 years, ~50%) and income (middle-class and above, ~60%), resulting in a target market of 21M * 50% * 60% = ~6.3M. 3. Estimate an active user penetration rate of 50% within this target market, giving 6.3M * 50% = ~3.15M active users. 4. Estimate monthly orders by segmenting users by frequency: High-frequency (20% of users @ 10 orders/mo), Medium-frequency (50% @ 4 orders/mo), and Low-frequency (30% @ 1 order/mo), which totals approximately 13.5M orders per month. 5. Assume a blended Average Order Value (AOV) of ₹350. 6. Calculate the annual market size by multiplying total monthly orders by the AOV and by 12 months: 13.5M * ₹350 * 12.|~₹5,600 - ₹5,800 Crores"
+  },
+  {
+    "type": "Guesstimate",
+    "topic": "Unconventional",
+    "difficulty": "Advanced",
+    "question": "How many tennis balls can fit in a bus?",
+    "hint": "Estimate the internal volume of a standard bus, subtracting the volume occupied by seats and fixtures. Estimate the volume of a single tennis ball and account for packing inefficiency (void space).",
+    "Answer for guesstimates": "Estimate the internal dimensions of a standard bus (e.g., 12m x 2.5m x 2.5m) for a total volume of ~75 cubic meters. 2. Subtract the volume occupied by non-fillable spaces like seats, the engine compartment, and fixtures, estimated at 30% of the total, leaving a usable volume of 75 * 0.70 = 52.5 cubic meters. 3. Calculate the volume of a single tennis ball (diameter ~6.7 cm), which is approximately 0.000157 cubic meters. 4. Account for packing inefficiency. Spheres cannot fill 100% of a space; random packing density is about 64%. This means the effective usable volume for the balls is 52.5 m³ * 0.64 = 33.6 cubic meters. 5. Divide the effective usable volume by the volume of a single ball: 33.6 / 0.000157.|~210,000 - 220,000 balls"
+  },
+  {
+    "type": "Mini Case",
+    "topic": "Profitability",
+    "difficulty": "Beginner",
+    "question": "A canned juice manufacturer recently diversified into more varieties. Their profitability has gone down. Why?",
+    "hint": "Structure your analysis using the Profitability Framework (Profit = Revenue - Costs). Investigate if revenues have changed (price, volume) and which specific costs have increased (raw materials, production, distribution).",
+    "Answer for guesstimates": "This is a profitability problem, which should be analyzed using the framework: Profit = (Volume x Price) - (Fixed Costs + Variable Costs). The diversification likely impacted multiple levers. On the Revenue side, investigate: 1. Cannibalization: Are the new, potentially lower-margin, juice varieties stealing sales from the original, high-margin products? 2. Pricing: Were the new varieties introduced at a lower promotional price, thereby lowering the average revenue per unit across the portfolio? On the Cost side, investigate: 1. Variable Cost Increase: Do the new varieties use more expensive raw materials? Has producing smaller batches of each variety led to a loss of bulk purchasing discounts? 2. Production Inefficiency: Has the increased complexity of managing multiple product lines led to more frequent production line changeovers, causing higher downtime, cleaning costs, and wastage per batch? 3. Fixed Cost Increase: Has managing a wider range of SKUs increased warehousing costs, logistics complexity, and potential spoilage? Was there a significant marketing expense to launch the new varieties that hasn't been offset by sufficient sales? The most likely cause is a combination of cannibalization and increased operational costs from managing a more complex supply chain and production process."
+  },
+  {
+    "type": "Mini Case",
+    "topic": "Profitability",
+    "difficulty": "Beginner",
+    "question": "A domestic airline has been experiencing declining profitability for five years. What is causing this and how can they reverse it?",
+    "hint": "Analyze both revenue drivers (ticket price, passenger volume, ancillary fees) and cost drivers (fuel, labor, maintenance, airport fees). Compare these metrics to industry benchmarks.",
+    "Answer for guesstimates": "This is a profitability problem. A 5-year decline suggests systemic issues, not a one-off event. On the Cost side, investigate: 1. Fuel Prices: Volatile and high Aviation Turbine Fuel (ATF) prices in India are a primary driver. Has their fuel hedging strategy been ineffective? 2. Currency Depreciation: A weakening Rupee against the USD increases costs for leases, maintenance (MRO), and spare parts, which are often dollar-denominated. 3. Airport Fees: Rising fees for landing, parking, and navigation at major airports can erode margins. 4. Fleet Inefficiency: Is the airline operating an older, less fuel-efficient fleet compared to competitors? Are there ongoing issues with engine suppliers leading to grounded aircraft and higher lease costs for replacements? On the Revenue side, investigate: 1. Intense Price Competition: The Indian market is dominated by Low-Cost Carriers (LCCs), leading to intense fare wars that suppress yields (revenue per passenger-kilometer). Are they unable to maintain pricing power? 2. Low Ancillary Revenue: Is the airline lagging behind competitors in generating revenue from non-ticket sources like baggage fees, seat selection, in-flight sales, and cargo? 3. Route Profitability: Are they operating too many unprofitable routes, especially in highly competitive metro-to-metro sectors? Reversal Strategy: The airline should focus on a dual approach: aggressively cut costs by renegotiating lease agreements, optimizing routes to reduce fuel burn, and improving MRO efficiency. Simultaneously, they must boost revenue by enhancing their ancillary product offerings through better personalization and expanding into more profitable international routes where fare pressure may be lower."
+  },
+  {
+    "type": "Mini Case",
+    "topic": "Profitability",
+    "difficulty": "Intermediate",
+    "question": "Your client is a theatre owner experiencing a decline in profits. It is specific to your client. Why?",
+    "hint": "Investigate the revenue streams (ticket sales, food & beverages, advertising). Since footfall hasn't declined, analyze the average spend per customer. Could F&B sales be down due to price, quality, or new competition?",
+    "Answer for guesstimates": "The core issue is a decline in profit per customer, as overall footfall is stable. This points to a problem with either average revenue per person or an increase in costs. Given the context, the investigation should prioritize revenue streams, specifically Food & Beverages (F&B). Framework: Profit = (Revenue/Customer - Cost/Customer) * Customers. Since 'Customers' is constant, the issue lies in the other two variables. Revenue Analysis (Primary Focus): 1. F&B Spend per Head: This is the most likely culprit. Has the average spend on concessions decreased? Investigate why: a) Pricing & Value: Are prices too high for the perceived quality? Have popular combo deals been removed or changed, reducing the average transaction value? b) Competition: Has a new, attractive food court or QSR opened nearby? Is the theatre located in a mall where customers have better pre-movie dining options? c) Product Offering & Quality: Is the menu stale? Has the quality of key items like popcorn or drinks declined? d) Service Efficiency: Are concession stands understaffed, leading to long queues and customers abandoning purchases to not miss their movie? 2. Ticket Revenue: Confirm that the average ticket price hasn't been inadvertently lowered through changes in seating mix (e.g., more lower-priced seats sold) or excessive discounting. Cost Analysis (Secondary Check): 1. F&B Margin: Has the Cost of Goods Sold (COGS) for F&B items increased (e.g., higher prices for corn, syrup, packaging), thus squeezing the margin on each sale even if F&B revenue is flat? 2. Operating Costs: Have there been recent increases in rent, staffing, or utility costs? The most probable cause is a decline in the F&B 'attach rate' or average transaction value, likely due to a perceived drop in value-for-money or increased external competition."
+  },
+  {
+    "type": "Mini Case",
+    "topic": "Profitability",
+    "difficulty": "Intermediate",
+    "question": "A leading pharmaceutical company in India is seeing declining revenue from its primary US market despite steady demand, due to frequent product recalls. How would you approach this?",
+    "hint": "Map the entire supply chain from manufacturing in India to delivery in the US. Investigate potential quality control failure points at each stage: production, packaging, shipping (especially temperature control), and warehousing.",
+    "Answer for guesstimates": "The problem is a critical operational failure leading to revenue loss, not a market demand issue. The approach must be a root cause analysis focused on the entire supply chain, from India to the US, to identify the source of the quality issues causing the recalls. Framework: Supply Chain & Quality Control Audit. 1. Manufacturing (India): This is the highest-risk area. Investigate: a) Raw Materials: Are Active Pharmaceutical Ingredient (API) and excipient suppliers consistent and their quality verified? b) Process Control: Are there deviations from Standard Operating Procedures (SOPs) in the manufacturing process? Is equipment properly calibrated and maintained? c) Contamination: Are there breaches in cleanroom protocols or cross-contamination between product lines? 2. Packaging & Labeling (India): Failures here can trigger recalls even if the product is fine. Check for: a) Seal Integrity: Is the packaging properly sealed to prevent contamination or degradation? b) Labeling Accuracy: Are lot numbers, expiration dates, and dosage information correct? 3. Logistics & Shipping (India to US): The \"cold chain\" is often a point of failure. Analyze: a) Temperature Control: Are there documented temperature logs for the entire transit? Have there been excursions outside the required temperature range during shipping or customs holds? b) Physical Damage: Is the packaging robust enough to prevent damage during transit? 4. Warehousing & Distribution (US): The final step before reaching the customer. Examine: a) Storage Conditions: Are US warehouses maintaining correct temperature and humidity levels? b) Inventory Management: Is a strict First-In-First-Out (FIFO) system being followed to prevent older stock from being used? Immediate Action Plan: The company should immediately form a cross-functional task force to analyze recall data for patterns (e.g., specific plants, products, shipping lanes). Based on this data, they must conduct urgent, in-depth audits of the highest-risk stages, likely starting with the manufacturing plants in India, to implement corrective and preventive actions (CAPA) and restore confidence with the US FDA."
+  },
+  {
+    "type": "Mini Case",
+    "topic": "Profitability",
+    "difficulty": "Advanced",
+    "question": "A large urban hospital's profitability has decreased to near bankruptcy. Why has it gone down and how can they turn it around?",
+    "hint": "Segment patients by service type (e.g., cardiology, pediatrics) and payer (e.g., insurance, private pay). Analyze the profitability and volume trends for each segment to identify the primary drivers of the decline.",
+    "Answer for guesstimates": "The hospital's profitability decline, despite stable patient numbers, is likely due to an unfavorable shift in its patient and service mix, or rising costs. Analysis: The core issue is a decline in average profit per patient. This can be diagnosed by segmenting profitability by: 1) Payer Mix: An increase in patients covered by lower-reimbursement government plans versus higher-paying private insurers will decrease average revenue. 2) Service Mix: A decline in high-margin, elective procedures (e.g., orthopedics, cardiology) and a rise in low-margin or loss-leading services (e.g., emergency care) will erode overall profit. 3) Cost Structure: Certain departments may have high fixed costs but low patient volume, or the cost of specialized medical supplies and labor may be rising faster than reimbursement rates. Turnaround Plan: The hospital must conduct a rapid profitability analysis of each service line. The strategy should be to 1) Optimize the Mix: Focus marketing and physician outreach on attracting patients for the most profitable service lines and payer types. 2) Renegotiate Contracts: Attempt to improve reimbursement rates with key insurance payers. 3) Cost Control: Aggressively manage costs in underperforming departments, optimize staffing, and streamline the procurement of high-cost medical supplies."
+  },
+  {
+    "type": "Mini Case",
+    "topic": "Market Entry",
+    "difficulty": "Beginner",
+    "question": "A large international soft drink bottler wants to enter the Indian market. Should they do it?",
+    "hint": "Evaluate the market attractiveness (size, growth, competition), financial feasibility (investment costs vs. potential revenue), and operational considerations (distribution network, local partnerships, regulatory hurdles).",
+    "Answer for guesstimates": "To decide on entering the Indian market, the bottler should follow a three-step analysis. First, evaluate Market Attractiveness: India offers a massive and growing consumer base, but faces intense competition from established giants (Coke, Pepsi) and strong local players. Second, assess Financial & Operational Feasibility: This requires significant upfront investment in bottling plants, a robust distribution network to reach diverse retail points, and substantial marketing spend to build brand awareness. Navigating India's regulatory landscape (e.g., FSSAI) is also a critical hurdle. Third, formulate a Go-to-Market Strategy: A full-scale national launch is high-risk. A more prudent approach would be a phased entry: initially partner with existing local bottlers to minimize capital expenditure, focus on securing distribution in a few key urban regions, and validate the product-market fit before committing to a nationwide infrastructure investment. The decision should be a \"go,\" but only with a cautious, phased, and partnership-driven strategy."
+  },
+  {
+    "type": "Mini Case",
+    "topic": "Market Entry",
+    "difficulty": "Intermediate",
+    "question": "A Japanese smart toilet manufacturer wants to enter the Indian market. Should they proceed?",
+    "hint": "First, size the addressable market by segmenting households by income level and urban/rural location. Then, assess product-market fit, considering infrastructure compatibility, price sensitivity, and cultural factors.",
+    "Answer for guesstimates": "To assess entry into the Indian market, the manufacturer must first recognize the market is extremely niche, not mass. The Addressable Market is limited to a small fraction of high-income households in Tier-1 metro cities where both purchasing power and suitable infrastructure (consistent water pressure, electricity) exist. Second, Product-Market Fit faces significant hurdles: 1) The high price point makes it a super-luxury item, not a sanitation upgrade. 2) There is very low consumer awareness and cultural familiarity with the product category, requiring substantial investment in education. 3) Installation challenges and after-sales service for a complex electronic product would be demanding. Therefore, a broad retail entry should not be pursued. The recommended strategy is a \"go,\" but only via a highly targeted B2B2C model: partner with luxury real estate developers, architects, and high-end hotel chains to introduce the product to affluent customers in a controlled environment before considering any direct-to-consumer efforts"
+  },
+  {
+    "type": "Mini Case",
+    "topic": "Market Entry",
+    "difficulty": "Intermediate",
+    "question": "Your client is a major telecom player who wants to enter the home security market. Should they?",
+    "hint": "Analyze the market size for smart home security in India. Evaluate the competitive landscape and the client's ability to compete (brand trust, technical capabilities, distribution channels). Consider entry strategies: build, buy, or partner.",
+    "Answer for guesstimates": "Yes, the telecom player should enter the home security market, as it represents a significant and synergistic growth opportunity. The market is nascent and growing, with no single dominant tech player, creating a window for entry. The client possesses critical advantages: a massive, existing customer base with high brand trust; an extensive retail and installation network; and core expertise in connectivity (broadband, 5G), which underpins smart security. The most effective entry strategy would be to partner with established hardware manufacturers to white-label devices (cameras, sensors), while the telco focuses on branding, software integration, marketing, and sales. By bundling home security subscriptions with their existing broadband and mobile plans, they can create a sticky ecosystem, reduce churn, and leverage their brand trust to become a market leader."
+  },
+  {
+    "type": "Mini Case",
+    "topic": "Market Entry",
+    "difficulty": "Advanced",
+    "question": "A leading Brazilian highway concessions company is looking to expand internationally as its domestic market has stalled. What factors should it consider?",
+    "hint": "Structure the analysis around key country-level factors: political/regulatory stability, economic growth prospects, infrastructure pipeline, and competitive environment. Then, assess the company's internal capabilities to manage international operations.",
+    "Answer for guesstimates": "The company must adopt a structured, two-phase approach for international expansion. First, it needs to perform Country-Level Screening to identify attractive markets by prioritizing factors like: 1) Political & Regulatory Stability, focusing on countries with a strong history of honoring long-term concession agreements and a transparent legal framework for Public-Private Partnerships (PPPs); 2) Economic & Infrastructure Pipeline, targeting nations with robust GDP growth and a clear, government-funded pipeline of highway projects; and 3) Competitive Environment, assessing the intensity of local and international competition. Second, after shortlisting countries, the company must conduct a rigorous Internal Capability Assessment, evaluating its financial capacity to fund large-scale foreign projects, its ability to adapt its operational expertise to new regulatory and labor environments, and its experience in managing currency and geopolitical risks. The ideal first step would be to enter a single, politically stable, high-growth market where the competitive landscape is manageable, allowing them to build international experience before diversifying further."
+  },
+  {
+    "type": "Mini Case",
+    "topic": "Growth Strategy",
+    "difficulty": "Beginner",
+    "question": "A big US retail chain wants to identify growth alternatives. How would you prioritize them?",
+    "hint": "Categorize growth strategies (e.g., market penetration, market development, product development, diversification). Evaluate each option based on its potential impact, risk, and alignment with the company's core capabilities.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "Mini Case",
+    "topic": "Growth Strategy",
+    "difficulty": "Intermediate",
+    "question": "Your client is Flipkart, and they aim to decisively outperform Amazon India in 2-3 years. Propose a comprehensive strategy.",
+    "hint": "Analyze key drivers of e-commerce market share: customer acquisition, customer retention, and average order value. Brainstorm initiatives for each driver, focusing on areas where Flipkart can differentiate (e.g., targeting Tier 2/3 cities, private labels, hyperlocal delivery).",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "Mini Case",
+    "topic": "Growth Strategy",
+    "difficulty": "Advanced",
+    "question": "A medical devices company is looking to grow 3x in the next 5 years. What questions would you ask to frame a growth strategy?",
+    "hint": "First, clarify if growth is organic or inorganic. Then, explore growth levers: expanding into new geographies, launching new products for existing customers, or entering adjacent medical segments. Assess the company's R&D and M&A capabilities.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "Mini Case",
+    "topic": "Pricing",
+    "difficulty": "Beginner",
+    "question": "Your client is a farmer in Haryana with a cow he wants to sell. How should he price it?",
+    "hint": "Use multiple pricing strategies to triangulate a value: Cost-based (initial cost + upkeep), Competitor-based (market price for similar cows), and Value-based (present value of future income from milk and calves).",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "Mini Case",
+    "topic": "Pricing",
+    "difficulty": "Intermediate",
+    "question": "A biotech firm has developed a pill that grants permanent immortality. How would you price it?",
+    "hint": "This is a value-based pricing problem with extreme value. Consider pricing based on the economic value of an infinite life. Also, discuss ethical constraints, market segmentation (ultra-wealthy individuals vs. governments), and societal impact.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "Mini Case",
+    "topic": "M&A",
+    "difficulty": "Intermediate",
+    "question": "A US snack foods company (peanuts) plans to acquire another company (almonds). Is this a good idea?",
+    "hint": "Evaluate the acquisition based on three pillars: 1) Market Attractiveness of the almond snack segment, 2) Synergies (cost and revenue) between the two companies, and 3) Financial viability (purchase price vs. future cash flows).",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "Mini Case",
+    "topic": "Unconventional",
+    "difficulty": "Advanced",
+    "question": "You are hired by the Government of India to design a national program to prepare youth for future jobs. How would you approach this?",
+    "hint": "Structure the program into three core pillars: 1) Access & Inclusion (how to reach the youth), 2) Relevant Skill Building (what to teach them), and 3) Conversion to Employment (how to connect them to jobs, freelancing, or entrepreneurship).",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "Brain Teaser",
+    "topic": "Logic",
+    "difficulty": "Beginner",
+    "question": "A farmer has 17 sheep and all but 9 die. How many are left?",
+    "hint": "This is a trick of wording. \"All but 9\" means 9 are the ones that did not die. The answer is 9.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "Brain Teaser",
+    "topic": "Logic",
+    "difficulty": "Beginner",
+    "question": "Michelle's mom has four children. The first is April, the second is May, the third is June. What is the name of the fourth child?",
+    "hint": "The answer is in the first sentence. The fourth child's name is Michelle.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "Brain Teaser",
+    "topic": "Lateral Thinking",
+    "difficulty": "Intermediate",
+    "question": "A man leaves home, makes three left turns, and returns home to find two masked men waiting for him. Who are they?",
+    "hint": "The context is not a typical house. Think of a sport where \"home\" is a location and people wear masks. The men are the umpire and catcher in a baseball game.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "Brain Teaser",
+    "topic": "Logic",
+    "difficulty": "Intermediate",
+    "question": "You have a 3-gallon jug and a 5-gallon jug. How do you measure exactly 4 gallons of water?",
+    "hint": "Fill the 5-gallon jug, pour it into the 3-gallon jug, leaving 2 gallons. Empty the 3-gallon jug. Pour the 2 gallons into the 3-gallon jug. Fill the 5-gallon jug and pour from it to fill the remaining 1 gallon space in the 3-gallon jug. You are left with 4 gallons in the 5-gallon jug.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "Brain Teaser",
+    "topic": "Lateral Thinking",
+    "difficulty": "Intermediate",
+    "question": "Why are manhole covers round?",
+    "hint": "A round cover cannot fall through its own opening, regardless of how it is oriented. A square or rectangular cover could be turned diagonally and fall through.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "Brain Teaser",
+    "topic": "Logic",
+    "difficulty": "Advanced",
+    "question": "You are outside a windowless room with three light bulbs inside. There are three switches outside. You can only enter the room once. How do you determine which switch controls which bulb?",
+    "hint": "Flip the first switch on for a few minutes. Then, turn it off. Turn the second switch on. Enter the room. The bulb that is on is connected to the second switch. The bulb that is warm but off is connected to the first switch. The third bulb is connected to the third switch.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "Brain Teaser",
+    "topic": "Unconventional",
+    "difficulty": "Advanced",
+    "question": "How would you explain the color green to a blind person?",
+    "hint": "Avoid visual descriptions. Use other senses and concepts. Green is the smell of freshly cut grass, the feel of cool leaves, the sound of nature, and the concept of life, growth, and tranquility.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Medium",
+    "question": "Estimate the market size of healthy biscuits in India.",
+    "hint": "Use a demand-side, top-down approach. Start with the total population of India, then segment by urban/rural, income levels, and age groups to determine the target consumer base and their likely consumption frequency.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "High",
+    "question": "Estimate the number of Ola and Uber cabs running in Delhi NCR in a day.",
+    "hint": "Use a demand-side approach. Segment the population of Delhi NCR by factors like income and location (urban/rural) to estimate the number of daily rides, then factor in the average number of rides per cab per day.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "High",
+    "question": "Estimate the number of flights taking off from Delhi in a week.",
+    "hint": "Use a supply-side approach. Segment the airport's operating hours into peak and non-peak times for both weekdays and weekends. Estimate the take-off frequency per runway/terminal for each period and aggregate for the week.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Medium",
+    "question": "How many cups of tea are consumed in Delhi in one day?",
+    "hint": "Use a top-down, demand-side approach. Start with the population of Delhi, segment by urban/rural and then by consumer types (e.g., office-goers, normal drinkers), and estimate the average number of cups per day for each segment.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Revenue Estimation",
+    "difficulty": "Medium",
+    "question": "Estimate the revenue of a salon.",
+    "hint": "Use a supply-side approach. Calculate the total available service hours based on the number of chairs and operating hours. Segment by weekdays and weekends to estimate occupancy rates, and then apply an average revenue per hour based on a typical service mix.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Medium",
+    "question": "What is the market size for fantasy sports?",
+    "hint": "Use a top-down, demand-side approach. Start with the total population, then filter by gender, age group (18-25), mobile/internet penetration, interest in sports, and finally the adoption rate for fantasy sports apps.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Medium",
+    "question": "How many orders are placed on Swiggy in Delhi in a day?",
+    "hint": "Use a demand-side, top-down approach. Segment Delhi's urban population by income (excluding BPL and rural). Estimate mobile/internet penetration and app adoption rates for each segment, then apply Swiggy's estimated market share and average order frequency.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Revenue Estimation",
+    "difficulty": "Medium",
+    "question": "Estimate the revenue of a Delhi-Gurgaon toll plaza in a day.",
+    "hint": "Use a supply-side, traffic-flow approach. Segment the day into low, medium, and high frequency hours. Estimate the number of vehicles passing through per booth per hour for each period, segment vehicles by type (car, heavy vehicle) to apply different toll rates, and aggregate to find total daily revenue.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "High",
+    "question": "Estimate the number of credit cards in India.",
+    "hint": "Use a demand-side, top-down approach. Segment India's population by income groups (high, medium, low). For each group, estimate the percentage of earning individuals, their willingness to apply for credit, and the average number of cards held per person.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Estimation",
+    "difficulty": "Low",
+    "question": "How much paint is required to paint your car?",
+    "hint": "Use a geometric approximation approach. Model the car as a combination of simple shapes (e.g., two cuboids) to estimate the total surface area, then use a proxy (e.g., paint needed for a standard door) to calculate the total volume of paint required.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Low",
+    "question": "How many Bollywood movies are released in a year?",
+    "hint": "Use a supply-side approach based on distribution channels. Estimate the average number of high, medium, and low-budget movies released each Friday, and multiply by the number of weeks in a year. Add an estimate for special releases on national holidays.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "High",
+    "question": "What is the market size of the tire industry in India in terms of revenue?",
+    "hint": "Use a demand-side approach focusing on vehicle parc. Segment the population into rural and urban households to estimate the number of four-wheelers owned.  Calculate the total number of tires (including replacements) and multiply by the average price per tire.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "High",
+    "question": "Estimate the number of outstanding education loans in India.",
+    "hint": "Use a demand-side approach. Segment the student population by income class and type of institution (public/private). For each segment, estimate the percentage of students who take loans to determine the total number of outstanding loans.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Revenue Estimation",
+    "difficulty": "Low",
+    "question": "What is the daily revenue of a dentist?",
+    "hint": "Use a supply-side approach. Estimate the dentist's operating hours and segment them into peak and non-peak periods. Calculate the number of patients seen based on average appointment duration and occupancy rates for each period, then apply a weighted average revenue based on the mix of services (consultation, simple vs. complex procedures).",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Revenue Estimation",
+    "difficulty": "Medium",
+    "question": "Estimate the annual revenue of a laundry service in Delhi.",
+    "hint": "Use a bottom-up approach. Identify primary revenue streams (wash & fold, dry cleaning) and secondary streams (same-day service, delivery).  Estimate the daily volume and price for each service to calculate total daily revenue, then extrapolate to an annual figure, considering operational hours.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Revenue Estimation",
+    "difficulty": "High",
+    "question": "Estimate the weekly revenue from the food stalls in a mall food court in Delhi.",
+    "hint": "Use a demand-side approach. Estimate the average daily footfall for the mall, segmented by weekdays and weekends.  Then, estimate the percentage of mall visitors who go to the food court and their average order value to calculate total daily revenue, which can be aggregated for the week.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Estimation",
+    "difficulty": "Low",
+    "question": "How many books does an average Indian read in their lifetime?",
+    "hint": "Use a demand-side approach. Segment a person's life into different age groups (e.g., 7-18, 18-35, 35-60). For each age group, segment the population into \"avid\" and \"non-avid\" readers and estimate the number of books read per year for each sub-segment. Sum the totals and adjust for the national literacy rate.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Estimation",
+    "difficulty": "Medium",
+    "question": "Estimate the weekly commute time for office-goers in Delhi.",
+    "hint": "Use a top-down approach. Segment Delhi's workforce by sector (primary, secondary, tertiary) and employment type (e.g., corporate, public sector). For each segment, estimate the commute time and the number of work-from-office days per week to find the total hours.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Estimation",
+    "difficulty": "High",
+    "question": "Estimate the expenditure incurred by the Government of India in the 2024 Lok Sabha elections.",
+    "hint": "Use a comparative, top-down approach. Start with the expenditure from a previous election (e.g., 2019) and project it forward by estimating growth drivers such as inflation, an increase in the voter base, and additional factors like technology and security costs.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "High",
+    "question": "What is the market size for an Alco-beverage firm in Mumbai?",
+    "hint": "Use a top-down, demand-side approach. Start with Mumbai's population, segment by location (urban vs. slum) and age.  Further refine the target urban population by income class to estimate the final number of potential consumers.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Medium",
+    "question": "How many red cars are there in Delhi?",
+    "hint": "Use a top-down approach. Estimate the total number of cars in Delhi by segmenting households by income and estimating car ownership per household.  Then, apply an estimated percentage for the color red based on common car color popularity.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Low",
+    "question": "Estimate the number of chairs in the households of Delhi.",
+    "hint": "Use a demand-side approach. Start with the population of Delhi and the average family size to estimate the number of households. Segment households by income level (low, middle, high) and estimate the average number of chairs owned by each segment.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Estimation",
+    "difficulty": "Medium",
+    "question": "Estimate the number of students in SRCC who travel by metro every day.",
+    "hint": "Use a top-down approach. Start with the total number of students and segment them by origin (Delhi vs. non-Delhi) to identify daily commuters.  Further segment the Delhi-based students by income to estimate the proportion that would choose the metro over other transport options.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Medium",
+    "question": "Estimate the number of wine bottles sold in India in a year.",
+    "hint": "Use a top-down, demand-side approach. Segment the population by income and age to identify the target market (excluding low-income and underage individuals). Differentiate between regular and occasional drinkers to estimate consumption frequency, then calculate the total number of bottles, adjusting for non-bottle formats (cans, barrels).",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Estimation",
+    "difficulty": "Low",
+    "question": "How many people visit India Gate on a given day?",
+    "hint": "Use a demand-side approach, segmenting visitors into two main groups: local residents and tourists.  For each group, estimate the potential number of visitors and the probability that they would choose to visit India Gate over other attractions in Delhi.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Estimation",
+    "difficulty": "High",
+    "question": "Estimate the number of students who use the metro to commute to North Campus colleges of Delhi University.",
+    "hint": "Use a top-down, segmentation approach. Start with the total number of students in North Campus colleges. Segment them by accommodation type (hostel, PG, day scholar) to identify commuters. Then, segment the commuters by income level to estimate the percentage likely to use the metro versus other transport modes.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Low",
+    "question": "What is the number of flights arriving at Delhi airport in a day?",
+    "hint": "Use a supply-side, capacity-based approach. Estimate the number of terminals and runways.  Segment the day into peak and non-peak hours and estimate the average time gap between landings for each period to calculate the number of flights per runway per hour. Aggregate to find the total for the day.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Revenue Estimation",
+    "difficulty": "Medium",
+    "question": "Estimate the monthly revenue of Saravana Bhavan in Delhi.",
+    "hint": "Use a supply-side, capacity-based approach. Estimate the restaurant's seating capacity and operating hours. Segment the month into weekdays and weekends, and further into peak and non-peak hours, to estimate customer turnover and total customers served. Apply a weighted average revenue per customer based on the menu mix.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Medium",
+    "question": "Estimate the market size of quick commerce in India.",
+    "hint": "Use a top-down, demand-side approach. Start with India's urban population and segment it by city tier and age group.  Estimate the adoption rate for quick commerce within each relevant segment to arrive at the total number of users.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "High",
+    "question": "Estimate the size of the advertising market on platforms other than traditional ones (e.g., OTT, social media, e-commerce).",
+    "hint": "Use a demand-side approach. For each platform type (OTT, social, etc.), estimate the total number of active users in India. Then, for each platform, estimate the average time spent per day and the number of ads encountered per hour to calculate the total ad impressions.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Medium",
+    "question": "Estimate the size of the Animation/VFX market in India.",
+    "hint": "Use a demand-side approach based on content consumption. Segment the market by content type (movies, TV shows, games/cartoons) and by consumer demographics (age, urban/rural).  Estimate the consumption volume for each segment to size the overall market.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Estimation",
+    "difficulty": "Medium",
+    "question": "How much milk is required by a coffee shop in Connaught Place per day?",
+    "hint": "Use a supply-side approach. Estimate the coffee shop's operating hours and segment the day into peak and non-peak periods for both weekdays and weekends.  Calculate the average number of coffees sold per day based on preparation time and occupancy rates. Then, segment the coffee types (black, latte, regular) to estimate the weighted average milk consumption per coffee and multiply by the number of coffees sold.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Medium",
+    "question": "Estimate the number of pens bought in India in a day.",
+    "hint": "Use a top-down, demand-side approach. Segment the population by age (children, adults, seniors). For each segment, estimate the percentage of active pen buyers and their average monthly pen consumption to find the total monthly demand, then divide to find the daily number.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Medium",
+    "question": "Estimate the number of Spotify premium subscribers in India.",
+    "hint": "Use a top-down, funnel approach. Start with the total population, segment by urban/rural and income to estimate the population with internet connectivity. From there, estimate the percentage who are music listeners, then the percentage who use Spotify, and finally, the percentage of Spotify users who convert to premium subscribers.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Market Sizing",
+    "difficulty": "Medium",
+    "question": "Estimate the number of active GMail users in India.",
+    "hint": "Use a top-down, segmentation approach. Start with the population of India, segment by age groups (0-18, 21-60, 60+).  For each group, estimate internet penetration, then email penetration, and finally the percentage of active users. Aggregate these numbers and apply Google's estimated market share for email services.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "guesstimate",
+    "topic": "Estimation",
+    "difficulty": "Medium",
+    "question": "Estimate the number of tennis balls that can fit in an airplane.",
+    "hint": "Use a supply-side approach. Calculate the internal volume of the aircraft and divide it by the volume of a single tennis ball, including a packing factor.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Profitability Analysis",
+    "difficulty": "Medium",
+    "question": "Your client is a major airline that has seen a recent and significant decline in profits, even though fuel costs have remained stable and passenger numbers are slightly up. What could be the cause?",
+    "hint": "Apply a Profitability Framework. Break down revenue streams beyond ticket sales (e.g., baggage fees, in-flight services) and analyze the cost structure for non-fuel-related increases (e.g., maintenance, labor, marketing).",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Operations/Profitability",
+    "difficulty": "Medium",
+    "question": "A leading pharmaceutical company in India is experiencing a decline in revenue from its primary market, the US, despite steady demand. Frequent product recalls are causing financial losses. How would you approach this case?",
+    "hint": "Use a Value Chain Analysis. Investigate each stage from manufacturing and packaging in India to transportation, storage, and distribution in the US to identify the root cause of the product quality issues leading to recalls.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "M&A / Market Entry",
+    "difficulty": "Medium",
+    "question": "A US snack foods company, Peanut Co., is considering acquiring Almond Co. to enter the growing snacking almonds market and diversify from its slow-growing peanut business. Is this a good idea?",
+    "hint": "Use a Market Entry framework combined with M&A considerations. Analyze the market size and profitability of snacking almonds, potential synergies (distribution, marketing), risks of cannibalization, and the deal's financial viability.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Market Entry",
+    "difficulty": "Easy",
+    "question": "Your client is a Japanese smart toilet manufacturer considering entering the Indian market. Should they proceed?",
+    "hint": "Use a Market Entry framework. Assess the market size by segmenting Indian households by income and location. Analyze competition, pricing, potential for partnerships, and the capital required for entry.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Market Entry / Growth Strategy",
+    "difficulty": "High",
+    "question": "Jio wants to launch an India-based cooking show to grow its viewership across both OTT and TV platforms. How should they approach this?",
+    "hint": "Use a Market Entry framework focusing on market sizing and operational feasibility. Estimate the potential viewership by segmenting the Indian population (urban/rural, income) and their TV/OTT access, then consider the content strategy and production requirements.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Profitability / Competitive Strategy",
+    "difficulty": "Medium",
+    "question": "A major global oil company's retail operation (gas stations and convenience stores) has seen declining profitability. A new threat is emerging from supermarkets opening gas stations in their parking lots. What should the client do?",
+    "hint": "Apply Porter's Five Forces to analyze the competitive landscape and a Profitability Framework. Compare the business models (ROIC) of traditional gas stations versus supermarket stations to identify competitive advantages and strategic responses.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Profitability / Operations Strategy",
+    "difficulty": "Hard",
+    "question": "Your client is a large, US-based manufacturer of heavy-duty trucks. The company is profitable, but margins have declined, and a significant market downturn is forecasted. How should they prepare?",
+    "hint": "Use a Profitability Framework. Analyze the cost structure for potential savings through synergies from recent acquisitions and operational efficiencies (lean manufacturing). On the revenue side, examine the product mix and potential for cannibalization across the company's three distinct brands.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Growth Strategy / Capital Investment",
+    "difficulty": "Medium",
+    "question": "The CEO of a large, diversified entertainment corporation needs to decide whether to approve a $200 million capital request to triple the capacity of its video game hardware subsidiary. The division is third in market share and has seen slowing sales growth. Is this a wise investment?",
+    "hint": "Use a Market Growth/Strategy framework. Assess the future market potential (saturation, competitive products), the competitive outlook (market concentration, R&D), and the company's ability to compete (cost position, software strategy) before committing to a capacity expansion.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Operations / Supply Chain Strategy",
+    "difficulty": "Hard",
+    "question": "A major US shoe manufacturer, currently producing everything domestically, is considering offshoring some or all of its production due to rising labor costs and competitive pressure. What factors should they consider?",
+    "hint": "Use a Cost-Benefit Analysis and consider supply chain factors. Compare the per-unit profitability of onshore vs. offshore production, factoring in COGS, labor, transportation, quality, and tariffs. Also, analyze the impact of longer lead times and demand volatility on working capital.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Profitability Analysis",
+    "difficulty": "Medium",
+    "question": "Your client, an Asian clothing retailer, entered the US five years ago but has struggled to achieve profitability. Why are they struggling and what should they do?",
+    "hint": "Use a Profitability Framework (Profit = Revenue - Costs). Calculate the annual revenue from all stores and compare it against total annual costs (COGS, rent, labor, etc.) to quantify the loss. Then, analyze product-market fit (styles, sizing) and cost structure (shipping, rent) to identify areas for improvement.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "International Expansion / Market Entry",
+    "difficulty": "Hard",
+    "question": "A leading Brazilian highway concessions company, facing stalled domestic growth, wants to expand internationally. What factors should they consider?",
+    "hint": "Use a Market Entry framework. Evaluate potential countries based on political environment (privatization regulations, stability), economic prospects (project pipeline, growth), and competitive landscape (local and international players).",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "M&A / Market Sizing",
+    "difficulty": "Medium",
+    "question": "A US snack foods company wants to acquire a competitor to enter the snacking almonds market. Should they proceed with the acquisition?",
+    "hint": "Apply a Mergers & Acquisitions framework. First, size the target market (snacking almonds). Then, calculate the payback period for the acquisition based on the target company's current profits. Finally, evaluate potential synergies (cross-selling, distribution) and risks (cannibalization).",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Operations Strategy / Cost Analysis",
+    "difficulty": "Hard",
+    "question": "A major US shoe manufacturer is considering offshoring its production to Vietnam. Should they move all production, or split it between the US and Vietnam?",
+    "hint": "Use a Total Landed Cost analysis. Compare the unit profitability between the two locations, but also incorporate the impact of longer lead times from Vietnam on working capital costs due to demand volatility. This suggests a dual-sourcing strategy.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Valuation / Public-Private Partnership",
+    "difficulty": "Medium",
+    "question": "The city of Chicago is planning to sell the 20-year rights to its ~40,000 parking meters to a private company. Your client wants to bid. How would you estimate a reasonable bid price?",
+    "hint": "Use a Net Present Value (NPV) approach. First, project the total revenue over 20 years by segmenting the meters by location (Downtown, CBD, Suburbs), estimating daily usage hours for each, and applying the corresponding price per hour. Then, project the total costs, including one-time meter upgrades and recurring operating expenses (labor, maintenance).  The bid should be based on the resulting 20-year free cash flow.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Human Capital / Operations",
+    "difficulty": "Hard",
+    "question": "Your client, an oil and gas services provider, is experiencing a very high attrition rate (28%) among its Field Engineers in the Mumbai office. The CEO wants to know why and how to fix it.",
+    "hint": "Use a Root Cause Analysis framework. Investigate internal factors (management changes, compensation, work-life balance, career progression) and external factors (competitor poaching, industry trends). Analyze operational data like engineer utilization rates and time spent offshore to pinpoint specific pain points.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Strategy / Operations",
+    "difficulty": "Easy",
+    "question": "The Salt Lake City International Airport wants to improve its operations. What are the most important things the Airport President should think about?",
+    "hint": "Use a Stakeholder Analysis framework. Identify the key stakeholders (Passengers, Airlines, Airport Vendors, City) and analyze their primary needs and concerns to guide strategic decision-making.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "M&A / Human Capital",
+    "difficulty": "Hard",
+    "question": "A US-based clothing company, Yermakov Ltd., has acquired a dozen high-end local boutiques to \"localize\" its image. Six months later, they are facing high employee attrition from the acquired companies and lower-than-expected customer acquisition. What should they do?",
+    "hint": "Apply a Post-Merger Integration framework focusing on Human Capital. Assess issues in three workstreams: 1) Change Management & Communication, 2) Talent Strategy (competency modeling, career pathing), and 3) Culture & Employee Engagement to stabilize the workforce and align the new acquisitions with the company's vision.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "International Expansion / Change Management",
+    "difficulty": "Hard",
+    "question": "A US pharmaceutical company, Waltham&Rose, is expanding to Germany and France, increasing its employee count by 50%. They are also outsourcing health benefits management and implementing a new cloud-based CRM system that all employees must use. How would you advise them to manage this transition?",
+    "hint": "Use a Change Management framework. Structure the approach into workstreams focusing on 1) Organizational Design & Gap Analysis (identifying new roles needed), 2) Training and Learning (for the new CRM and international processes), and 3) Technology Adoption (managing employee acceptance and mitigating risks).",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Strategy / Competitive Analysis",
+    "difficulty": "Hard",
+    "question": "An Australian mining company, the largest and lowest-cost producer of iron ore for the Chinese market, has the opportunity to increase its production by over 50%. Should they do it?",
+    "hint": "Use a Supply & Demand analysis combined with a Payback Period calculation. Analyze the industry cost curve to determine how the increased supply will lower the market equilibrium price. Calculate the change in annual profit (new volume at new price vs. old volume at old price) and divide the upfront investment by this change to see if it meets the company's payback criteria. Consider the competitive reaction.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "M&A / Valuation",
+    "difficulty": "Hard",
+    "question": "A private equity firm, Alpha Capital, is considering buying the Philadelphia Phillies for $1.1B. What is the team worth, and should they make the investment?",
+    "hint": "Use a business valuation framework. First, calculate the team's current annual EBIT (Earnings Before Interest and Taxes) by estimating all major revenue streams (tickets, concessions, media rights) and costs (player salaries, stadium). Then, apply a discount rate to determine the baseline valuation. Finally, identify and quantify potential revenue and cost synergies to arrive at a new total valuation and compare it to the asking price.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Market Sizing / Social Sector",
+    "difficulty": "Hard",
+    "question": "The Indian government wants to use the Indian postal network to distribute insurance products to the underserved population (aspirers and strugglers). Is this a viable and profitable plan?",
+    "hint": "Use a Market Sizing and Profitability Analysis. First, calculate the total market size in terms of annual premiums from the target segments. Then, estimate the potential premium sales through the postal network based on the number of participating post offices and agent productivity. Finally, calculate the profitability by subtracting costs (claims, commissions, salaries) from the projected revenue.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Business Valuation / Strategic Alternatives",
+    "difficulty": "Hard",
+    "question": "Your client is a coffin maker in Maldovia who uses skilled labor for high-quality, hand-crafted products. A new technology is available that allows for machine-made coffins with less labor. Should the client invest in the technology, or should they get out of the business altogether?",
+    "hint": "Use a Business Valuation and Strategic Alternatives analysis. First, calculate the current value of the business based on its discounted cash flows. Compare this to the liquidation value of its assets (land and improvements). Then, analyze the financial impact of investing in the new technology, considering that non-proprietary technology will likely lower industry-wide prices and margins.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Profitability Analysis",
+    "difficulty": "Medium",
+    "question": "A US health care provider has experienced a profit decline. Their revenues come from commissions, and they have 300 contracted physicians. A \"referral\" is necessary when a service can't be provided in-house. Why is profit declining and what should they do?",
+    "hint": "Use a Profitability Framework. Since revenue is based on commissions and costs are affected by referrals, analyze the referral rate and cost. Investigate why referrals might be increasing (e.g., lack of in-house specialists, physician incentives, risk aversion) and model the financial impact of implementing an incentive plan to reduce unnecessary referrals.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Supply Chain / Operations",
+    "difficulty": "Medium",
+    "question": "A US cosmetics company is facing a high level of inventory. How can they reduce it in the short-term and what are the long-term systemic issues?",
+    "hint": "For the short-term, brainstorm tactical solutions like promotions, price reductions, or dumping to overseas markets. For the long-term, use a Value Chain framework to analyze systemic issues from forecasting (high error rates), procurement (high MOQs), manufacturing (large batch sizes), and distribution (decentralized safety stocks).",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Pricing Strategy / Product Launch",
+    "difficulty": "Hard",
+    "question": "An integrated oil company discovers a new automobile fuel that increases mileage by 30% but costs 10% more to produce. They have a patent. How should they price it?",
+    "hint": "Use a value-based pricing approach. The new fuel offers 30% more value (mileage), so it can be priced up to 30% higher than existing fuel. Calculate the new profit margin based on this price and the 10% higher cost.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Corporate Finance / Strategy",
+    "difficulty": "Medium",
+    "question": "A large global power company operating in 25 countries is in a liquidity crisis and needs to generate cash by selling assets (plants). How would you help them decide which assets to sell?",
+    "hint": "Use a portfolio analysis framework. Evaluate each plant/geographic region based on financial performance (profitability, cash flow), market attractiveness (growth/decline), and competitive position (market share, strengths). Prioritize selling assets in declining markets where the company has a weak competitive position.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Pricing Strategy",
+    "difficulty": "Hard",
+    "question": "An agri-technology company has developed a patented technology for cotton farming that increases yield. How should they price the patent?",
+    "hint": "Use a value-based pricing approach. The price should be based on the total economic value it creates for the farmers. Calculate this value by estimating the increase in revenue from higher yields and any potential cost savings (e.g., less water, fertilizer). The patent price should be a fraction of this total value created.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Competitive Strategy / Profitability",
+    "difficulty": "Medium",
+    "question": "A power generator manufacturer, the dominant player with 90% market share, is facing a threat from smaller competitors who have improved their product quality. The client is worried about future profitability. How should you advise them?",
+    "hint": "Use a Profitability and Strategy framework. Analyze the potential impact of competition on price and volume. Since the client is the price leader, explore options like product differentiation, strengthening the brand, and leveraging their scale for cost advantages rather than engaging in a price war. Assess the financial outcomes of best-case (price increase) and worst-case (revenue drop) scenarios.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "mini case",
+    "topic": "Growth Strategy",
+    "difficulty": "Medium",
+    "question": "A start-up electric vehicle manufacturer has built a prototype and is interested in mass-producing it for the U.S. market. What do you think about this opportunity?",
+    "hint": "Use a Market Entry/Growth Strategy framework. Assess the potential market by segmenting customers and estimating demand. Analyze the operational feasibility, including the number of employees needed and manufacturing scale-up options (build new, outsource). Finally, evaluate the financial viability and strategic risks.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "brain teaser",
+    "topic": "Logic Puzzle",
+    "difficulty": "Low",
+    "question": "A woman uses a fake ₹1000 note to buy ₹200 worth of goods. The shopkeeper gives her ₹800 change using money from a neighbor. When the note is found fake, he repays the neighbor ₹1000. What is the total loss?",
+    "hint": "Focus on the shopkeeper's net cash flow. Consider the value of the goods given away and the actual cash lost to both the woman and the neighbor.",
+    "Answer for guesstimates": ""
+  },
+  {
+    "type": "brain teaser",
+    "topic": "Logic Puzzle",
+    "difficulty": "Medium",
+    "question": "You have two ropes and a lighter. Each rope takes exactly 60 minutes to burn from one end to the other, but they burn at a non-uniform rate. How can you measure exactly 45 minutes?",
+    "hint": "Think about burning the ropes from both ends simultaneously. Consider what happens when one rope completely burns out and how you can use the remaining rope.",
+    "Answer for guesstimates": ""
+  }
+]
