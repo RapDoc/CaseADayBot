@@ -29,7 +29,7 @@ client.once("ready", () => {
   const channel = client.channels.cache.get(process.env.CHANNEL_ID);
 
   // 6 AM: Send Question
-  cron.schedule("59 13 * * *", () => {
+  cron.schedule("01 14 * * *", () => {
     if (channel && currentIndex < cases.length) {
       const c = cases[currentIndex];
       channel.send(
